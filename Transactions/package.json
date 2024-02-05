@@ -1,0 +1,25 @@
+{
+  "name": "Transactions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/app",
+    "build": "tsc",
+    "build:watch": "tsc -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/bitcoinjs-lib": "^5.0.0",
+    "@types/node": "^20.11.7",
+    "bip32": "^4.0.0",
+    "bitcoinjs-lib": "5.1.9",
+    "tiny-secp256k1": "^2.2.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
