@@ -1,0 +1,9 @@
+{
+  "name": "BlockConstructor",
+  "version": "1.0.0",
+  "main": "block.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./block.js"
+  }
+}
